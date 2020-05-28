@@ -1,13 +1,16 @@
 body {
+  background: green;
   margin: 0;
+  padding: 0;
 }
 
 #content {
-  background: url("../Images/background.jpg") no-repeat;
+  background: purple;
   color: white;
-  height: 1000px;
-} 
+}
+
 #navbar {
+  border-bottom: 1px solid white;
   background: black;
   height: 45px;
 }
@@ -15,7 +18,8 @@ body {
   display: inline-block;
   position: absolute;
   left: 0;
-  padding: 15px;
+  padding: 12px;
+  font-size: 20px;
 }
 #navbar ul {
   list-style: none;
@@ -28,4 +32,35 @@ body {
 #navbar a {
   color: lightgray;
   padding: 5px;
+}
+
+.card {
+  width: 400px;
+  background: black;
+  border-radius: 5px;
+  margin: 15px auto;
+}
+.card .title{
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+.card p {
+  color: lightgray;
+  padding: 10px;
+  font-size: 20px;
+}
+.card img {
+  width: 80%;
+  margin: 0 35px;
+}
+
+#footer {
+  background: black;
+  height: 50px;
+}
+#footer h4 {
+  color: gray;
+  text-align: center;
+  padding: 10px;
 }
